@@ -1,35 +1,56 @@
 /* CSS Document */
 
 body {
-  background-image: url(../images/wood-background-texture-www-myfreetextures-com-1500-free-textures.jpg);
-  background-repeat: repeat;
-  margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  /*border: 2px solid #119999;*/
+	background-image: url(../images/wood-background-texture-www-myfreetextures-com-1500-free-textures.jpg);
+	background-repeat: repeat;
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*border: 2px solid #119999;*/
 }
 
 h2,
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  font-size: 36px;
+	font-size: 36px;
 }
 
 /*#wrapper */
+
+.gototop {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+.gototop i {
+	color: #e0d4be;
+}
+
 .panel {
-  width: 940px;
-  margin: 10px auto;
-  background-color: #ffffff;
-  background-image: url(../images/tan_marbled_paper.jpg);
-  background-repeat: repeat; /* opacity: .9;*/
-  border: 2px solid #af0000;
-  border-radius: 25px;
-  padding: 0 40px;
+	width: 940px;
+	margin: 10px auto;
+	background-color: #ffffff;
+	background-image: url(../images/tan_marbled_paper.jpg);
+	background-repeat: repeat; /* opacity: .9;*/
+	border: 2px solid #af0000;
+	border-radius: 25px;
+	padding: 0 40px;
+}
+
+.panel h1 {
+	text-align: center;
 }
 
 #menuwrapper {
-  width: 940px;
-  margin: 10px auto;
+	width: 940px;
+	margin: 10px auto;
+}
+
+/* UTILITY CLASSES*/
+
+.center-me {
+	text-align: center;
 }
