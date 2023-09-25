@@ -1,0 +1,71 @@
+/* CSS Document */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/wood-background-texture-www-myfreetextures-com-1500-free-textures.jpg);
+	background-repeat: repeat;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	/*border: 2px solid #119999;*/
+}
+
+h2,
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+/*#wrapper */
+
+.gototop {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+.gototop i {
+	color: #e0d4be;
+}
+
+.panel {
+	max-width: 940px;
+	width: 90%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	background-image: url(../images/tan_marbled_paper.jpg);
+	background-repeat: repeat; /* opacity: .9;*/
+	border: 2px solid #2b1d15;
+	border-radius: 25px;
+	padding: 0 40px;
+}
+
+.panel h1 {
+	text-align: center;
+}
+
+.hero-image {
+	/* outline: 4px solid greenyellow; */
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+}
+
+#menuwrapper {
+	max-width: 940px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+/* UTILITY CLASSES*/
+
+.center-me {
+	text-align: center;
+}
